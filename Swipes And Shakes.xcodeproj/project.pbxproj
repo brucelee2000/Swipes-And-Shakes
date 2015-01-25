@@ -13,6 +13,14 @@
 		A75683601A7491D900322006 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A756835F1A7491D900322006 /* Images.xcassets */; };
 		A75683631A7491D900322006 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75683611A7491D900322006 /* LaunchScreen.xib */; };
 		A756836F1A7491D900322006 /* Swipes_And_ShakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A756836E1A7491D900322006 /* Swipes_And_ShakesTests.swift */; };
+		A75683801A74996200322006 /* kid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A75683791A74996200322006 /* kid.mp3 */; };
+		A75683811A74996200322006 /* laughter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A756837A1A74996200322006 /* laughter.mp3 */; };
+		A75683821A74996200322006 /* party.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A756837B1A74996200322006 /* party.mp3 */; };
+		A75683831A74996200322006 /* pingas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A756837C1A74996200322006 /* pingas.mp3 */; };
+		A75683841A74996200322006 /* running.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A756837D1A74996200322006 /* running.mp3 */; };
+		A75683851A74996200322006 /* silly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A756837E1A74996200322006 /* silly.mp3 */; };
+		A75683861A74996200322006 /* superman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A756837F1A74996200322006 /* superman.mp3 */; };
+		A75683881A74998200322006 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75683871A74998200322006 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		A75683681A7491D900322006 /* Swipes And ShakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swipes And ShakesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A756836D1A7491D900322006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A756836E1A7491D900322006 /* Swipes_And_ShakesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipes_And_ShakesTests.swift; sourceTree = "<group>"; };
+		A75683791A74996200322006 /* kid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kid.mp3; sourceTree = "<group>"; };
+		A756837A1A74996200322006 /* laughter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laughter.mp3; sourceTree = "<group>"; };
+		A756837B1A74996200322006 /* party.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = party.mp3; sourceTree = "<group>"; };
+		A756837C1A74996200322006 /* pingas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pingas.mp3; sourceTree = "<group>"; };
+		A756837D1A74996200322006 /* running.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = running.mp3; sourceTree = "<group>"; };
+		A756837E1A74996200322006 /* silly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silly.mp3; sourceTree = "<group>"; };
+		A756837F1A74996200322006 /* superman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = superman.mp3; sourceTree = "<group>"; };
+		A75683871A74998200322006 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A75683881A74998200322006 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 		A756834A1A7491D900322006 = {
 			isa = PBXGroup;
 			children = (
+				A75683871A74998200322006 /* AVFoundation.framework */,
 				A75683551A7491D900322006 /* Swipes And Shakes */,
 				A756836B1A7491D900322006 /* Swipes And ShakesTests */,
 				A75683541A7491D900322006 /* Products */,
@@ -80,6 +98,7 @@
 				A75683581A7491D900322006 /* AppDelegate.swift */,
 				A756835A1A7491D900322006 /* ViewController.swift */,
 				A756835C1A7491D900322006 /* Main.storyboard */,
+				A75683781A74996200322006 /* sounds */,
 				A756835F1A7491D900322006 /* Images.xcassets */,
 				A75683611A7491D900322006 /* LaunchScreen.xib */,
 				A75683561A7491D900322006 /* Supporting Files */,
@@ -110,6 +129,20 @@
 				A756836D1A7491D900322006 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A75683781A74996200322006 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A75683791A74996200322006 /* kid.mp3 */,
+				A756837A1A74996200322006 /* laughter.mp3 */,
+				A756837B1A74996200322006 /* party.mp3 */,
+				A756837C1A74996200322006 /* pingas.mp3 */,
+				A756837D1A74996200322006 /* running.mp3 */,
+				A756837E1A74996200322006 /* silly.mp3 */,
+				A756837F1A74996200322006 /* superman.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +226,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A756835E1A7491D900322006 /* Main.storyboard in Resources */,
+				A75683861A74996200322006 /* superman.mp3 in Resources */,
+				A75683851A74996200322006 /* silly.mp3 in Resources */,
+				A75683801A74996200322006 /* kid.mp3 in Resources */,
+				A75683841A74996200322006 /* running.mp3 in Resources */,
+				A75683831A74996200322006 /* pingas.mp3 in Resources */,
 				A75683631A7491D900322006 /* LaunchScreen.xib in Resources */,
 				A75683601A7491D900322006 /* Images.xcassets in Resources */,
+				A75683811A74996200322006 /* laughter.mp3 in Resources */,
+				A75683821A74996200322006 /* party.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +445,7 @@
 				A75683741A7491D900322006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A75683751A7491D900322006 /* Build configuration list for PBXNativeTarget "Swipes And ShakesTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +454,7 @@
 				A75683771A7491D900322006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
